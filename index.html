@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Illusion de Heider-Simmel</title>
+    <link type="text/css" rel="stylesheet" href="style.css" media="all">
+</head>
+
+<body>
+    <div>Illusion de Heider-Simmel programmable.</div>
+    <div id="global">
+        <svg id="playground" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+            <g transform="translate(200,200) rotate(0) scale(20) " id="petitRond">
+                <circle cx="0" cy="0" r="1"/>
+            </g>
+            <g transform="translate(300,300) rotate(45) scale(20) " id="petitTriangle">
+                <polygon points="0,1  -0.866,-0.5  0.866,-0.5"/>
+            </g>
+            <g transform="translate(100,100) rotate(45) scale(60) " id="grosTriangle">
+                <polygon points="0,1  -0.866,-0.5  0.866,-0.5"/>
+            </g>
+            <g transform="translate(700,500) rotate(0) scale(200)  " id="maison">
+                <polyline points="0,-1 1,-1 1,1 0,1 0,0" fill="none" stroke="black" stroke-width="0.1" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(700,500) rotate(-45,0,0) scale(200) " id="porte">
+                <polyline points="0,0 0,-1" fill="none" stroke="black" stroke-width="0.1" stroke-linecap="round"/>
+            </g>
+            <text x="10" y="950" font-family="Verdana" font-size="50" id="soustitre"></text>
+        </svg>
+        <textarea id="program"></textarea>
+        <div id="ctrl">
+            <button id="playBtn">PLAY!</button>
+            <button id="pauseBtn">PAUSE</button>
+        </div>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>

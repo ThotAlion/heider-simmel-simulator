@@ -1,0 +1,20 @@
+#global {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+
+#playground {
+    height: 95vh;
+    border: dotted black;
+}
+
+#program {
+    width: 400px;
+}
+
+#ctrl {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}

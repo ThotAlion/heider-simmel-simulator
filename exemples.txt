@@ -1,0 +1,15 @@
+# Entrée triomphale au chateau
+#debut
+1,100,350,650,250,-30,650,600,-30,0
+#face a la porte
+5,500,350,650,250,-30,650,600,-30,0,"[sifflote]"
+#tournent la tête
+1,500,350,650,250,-70,650,600,30,0
+#attente
+2,500,350,650,250,-70,650,600,30,0,"Bonjour messieurs! puis-je entrer ?"
+#porte ouverte
+1,500,350,650,250,-30,650,600,-30,-90,""
+#entrée
+5,800,500,650,250,-30,650,600,-30,-90,"Merci beaucoup!"
+#fermer la porte
+1,800,500,650,250,-30,650,600,-30,0,""
